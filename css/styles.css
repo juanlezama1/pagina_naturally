@@ -1,21 +1,24 @@
-.navbar {
-    font-family: 'Source Sans Pro', sans-serif;
+.index_main {
+    background-image: url(../images/index_salad2.jpg);
+    height: 550px;
+    background-size: 100% 100%;
 }
 
-.index{
-    font-family: 'Amiko', sans-serif;
+.index_title {
+    color: white;
+    font-size: 40px;
+
 }
 
-.index_button{
-    font-family: 'Chivo', sans-serif;
+.index_text {
+    color: whitesmoke;
 }
 
-.footer{
-    font-family: 'Inter', sans-serif;
-}
-
-.rights{
-    font-family: 'Source Sans Pro', sans-serif;
+.index_button {
+    background-color: greenyellow;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
 }
 
 .whatsapp_button{
@@ -31,4 +34,3 @@
     max-height: 100%;
     border-radius: 100%;
    }
-
