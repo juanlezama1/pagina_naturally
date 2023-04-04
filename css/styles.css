@@ -1,13 +1,26 @@
+header {
+    height: 55px;
+    position:relative;
+}
+
+.header_image {
+    height: 100%;
+}
+
+.navbar_item {
+    font-size: 20px;
+    color: rgb(24, 27, 201);
+}
+
 .index_main {
     background-image: url(../images/index_salad2.jpg);
     height: 550px;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 .index_title {
     color: white;
     font-size: 40px;
-
 }
 
 .index_text {
@@ -19,6 +32,10 @@
     color: white;
     padding: 15px;
     text-decoration: none;
+}
+
+.footer {
+    background-color: greenyellow;
 }
 
 .footer_information_info {
@@ -36,6 +53,11 @@
 .footer_map {
     height: 100%; 
     width: 100%;
+}
+
+.rights {
+    background-color: greenyellow;
+
 }
 
 .rights_text {
