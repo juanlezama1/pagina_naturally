@@ -21,6 +21,29 @@
     text-decoration: none;
 }
 
+.footer_information_info {
+    list-style: none;
+}
+
+.footer_followus_text {
+    list-style: none;
+}
+
+.footer_followus_link {
+    text-decoration: none;
+}
+
+.footer_map {
+    height: 100%; 
+    width: 100%;
+}
+
+.rights_text {
+    font-size: 15px;
+    font-style: italic;
+    color:grey
+}
+
 .whatsapp_button{
     width: 60px;
     height: 60px;
