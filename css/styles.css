@@ -3,8 +3,18 @@ header {
     position:relative;
 }
 
+.header_image_container {
+    height: 100%;
+}
+
 .header_image {
     height: 100%;
+}
+
+.navbar_list {
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
 }
 
 .navbar_item {
@@ -14,17 +24,27 @@ header {
 
 .index_main {
     background-image: url(../images/index_salad2.jpg);
-    height: 550px;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow: hidden;
 }
 
 .index_title {
+    width: 100%;
+}
+.index_title_text {
     color: white;
-    font-size: 40px;
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
-.index_text {
-    color: whitesmoke;
+.index_subtitle_text {
+    color: white;
+    font-size: 18px;  
 }
 
 .index_button {
@@ -78,4 +98,12 @@ header {
     max-width: 100%;
     max-height: 100%;
     border-radius: 100%;
-   }
+}
+
+/* Tipografías disponibles: */
+
+/* font-family: 'Amiko', sans-serif;
+font-family: 'Chivo', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
