@@ -58,11 +58,22 @@ header {
     background-color: greenyellow;
 }
 
-.footer_information_info {
-    list-style: none;
+.footer_div {
+    margin-top: 13px;
+    padding:0;
 }
 
-.footer_followus_text {
+.footer_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_information {
+    padding:0px; 
+    width: 100%;
+}
+
+.footer_information_info {
     list-style: none;
 }
 
@@ -73,6 +84,7 @@ header {
 .footer_map {
     height: 100%; 
     width: 100%;
+    padding-left: 2px;
 }
 
 .rights {
