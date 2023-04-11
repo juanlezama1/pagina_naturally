@@ -114,6 +114,12 @@ header {
     border-radius: 100%;
 }
 
+.contact {
+    background-image: url(../images/vegetables\ opacity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Tipografías disponibles: */
 
 /* font-family: 'Amiko', sans-serif;
