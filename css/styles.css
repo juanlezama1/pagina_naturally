@@ -156,6 +156,10 @@ select {
     background-color: rgb(220, 241, 187);
 }
 
+.our_history {
+    background-image: url(../images/image4.png);
+}
+
 /* Tipografías disponibles: */
 
 /* font-family: 'Amiko', sans-serif;
