@@ -1,6 +1,8 @@
 header {
     height: 55px;
     position:relative;
+    background-color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .header_image_container {
@@ -18,8 +20,8 @@ header {
 }
 
 .navbar_item {
-    font-size: 20px;
-    color: rgb(24, 27, 201);
+    font-size: 15px;
+    color: grey;
 }
 
 .index_main {
@@ -37,6 +39,8 @@ header {
     color: white;
     font-size: 55px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: italic;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -48,10 +52,12 @@ header {
 }
 
 .index_button {
-    background-color: greenyellow;
-    color: blue;
+    background-color: rgb(201, 169, 127);
+    color: black;
     padding: 15px;
     text-decoration: none;
+    border-radius: 5px;
+    border
 }
 
 .footer {
@@ -120,6 +126,9 @@ header {
     background-size: cover;
 } */
 
+.menu {
+    background-image: url(../images/image4.png);
+}
 .menu_image {
     width: 100%;
 }
