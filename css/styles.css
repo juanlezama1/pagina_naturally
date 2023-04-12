@@ -120,6 +120,14 @@ header {
     background-size: cover;
 }
 
+.menu_image {
+    width: 100%;
+}
+
+.menu_title {
+    padding-top: 3px;
+}
+
 /* Tipografías disponibles: */
 
 /* font-family: 'Amiko', sans-serif;
