@@ -35,25 +35,24 @@
                 <p class="text-center">¿TENÉS ALGUNA CONSULTA? ¡COMPLETÁ EL SIGUIENTE FORMULARIO Y TE RESPONDEREMOS DENTRO DE LAS PRÓXIMAS 48HS HÁBILES!</p>
             </div>
         </div>
-        
-        <form class="row" action="">
-            <div class="col-lg-12">
-                <label for="first_name last_name">Nombre completo</label>
-                <input type="text" id="first_name" name="fist_name" placeholder="Nombre">
-                <input type="text" id="last_name" name="last_name" placeholder="Apellido">
+
+        <form class="row" action="" >
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Nombre y Apellido">
             </div>
 
-            <div class="col-lg-12">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
                 <label for="email">Correo electrónico</label>
                 <input type="email" id="email" name="email" placeholder="hola@contacto.com">
             </div>
 
-            <div class="col-lg-12">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
                 <label for="phone_number">Teléfono de contacto</label>
                 <input type="text" id="phone_number" name="phone_number" placeholder="+54 11 5555-5555">
             </div>
 
-            <div class="col-lg-12">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
                 <label for="message_type">Motivo del mensaje</label>
                 <select name="message_type" id="message_type">
                     <option value="suggestion">Sugerencia</option>
@@ -62,13 +61,12 @@
                 </select>
             </div>
 
-            <div class="col-lg-12">
-                <label for="message">Mensaje</label>
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                <label for="message" style="font-family: 'Source Sans Pro', sans-serif;  font-weight: 200;   font-style: italic;;"><b>Mensaje</b></label>
                 <textarea id="message" name="message" rows="5" cols="40"></textarea>
                 <input type="submit" value="Enviar!">
             </div>
-        </form>
-        
+        </form>        
     </main>
 
     <footer class="footer row">
