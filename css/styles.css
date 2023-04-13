@@ -35,6 +35,7 @@ header {
 .index_title {
     width: 100%;
 }
+
 .index_title_text {
     color: white;
     font-size: 55px;
@@ -156,8 +157,8 @@ select {
     background-color: rgb(220, 241, 187);
 }
 
-.our_history {
-    background-image: url(../images/image4.png);
+.contact_label {
+    font-family: 'Amiko', sans-serif;
 }
 
 /* Tipografías disponibles: */
