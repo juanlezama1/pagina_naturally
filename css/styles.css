@@ -170,14 +170,13 @@ select {
     flex-grow: 1;
 }
 
-.contact_title {
+.contact_title, .menu_titulo, .arma_titulo, .aboutus_titulo {
     font-family: 'Rubik', sans-serif;
 }
 
-.contact_subtitle {
+.contact_subtitle, .menu_subtitulo, .arma_subtitulo {
     font-family: 'Rubik', sans-serif;
 }
- 
 
 /* Tipografías disponibles: */
 
