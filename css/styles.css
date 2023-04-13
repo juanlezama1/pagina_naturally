@@ -161,9 +161,22 @@ select {
     font-family: 'Amiko', sans-serif;
 }
 
-/* .contact_input {
-    width: 300px;
-} */
+.contact_item {
+    width: 500px;
+    margin-left: 400px;
+}
+
+.contact_input {
+    flex-grow: 1;
+}
+
+.contact_title {
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact_subtitle {
+    font-family: 'Rubik', sans-serif;
+}
  
 
 /* Tipografías disponibles: */
