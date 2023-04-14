@@ -120,12 +120,7 @@ header {
     border-radius: 100%;
 }
 
-.contact {
-    background-image: url(../images/image4.png);
-}
-
-
-.menu {
+.menu, .contact, .build, .our_history {
     background-image: url(../images/image4.png);
 }
 .menu_image {
