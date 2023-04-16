@@ -1,27 +1,77 @@
+/* ESTILOS EN HEADER */
+
 header {
     height: 55px;
-    position:relative;
+    width: 100%;
     background-color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.header_image_container {
+.header_image_link, .header_image {
     height: 100%;
 }
 
-.header_image {
+.header_navbar {
+
     height: 100%;
+
+    @media (max-width: 991px)
+
+    {
+        display: none;
+    }
 }
 
-.navbar_list {
+.header_navbar_list {
+
     height: 100%;
-    margin: 0px;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
 }
 
-.navbar_item {
+.header_navbar_item {
     font-size: 15px;
     color: grey;
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.header_dropdown {
+
+    height: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+
+    @media (min-width: 992px)
+
+    {
+        display: none;
+    }
+}
+
+.header_dropdown_icon {
+    height: 100%;
+    width: 100%;
+}
+
+.header_dropdown_button {
+    background-color: rgb(154, 206, 75);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu_item {
+    text-decoration: none;
 }
 
 .index_main {
