@@ -62,7 +62,8 @@ header {
     width: 100%;
 }
 
-.header_dropdown_button {
+.header_dropdown_button, .header_dropdown_button.show, .header_dropdown_button:hover , .header_dropdown_button:focus,
+.header_dropdown_button:active, .btn:first-child:active  {
     background-color: rgb(154, 206, 75);
 }
 
