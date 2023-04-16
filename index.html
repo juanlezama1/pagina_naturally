@@ -16,18 +16,30 @@
 </head>
 
 <body class="container-fluid">
-    <header class="row">
-        <div class="header_image_container col-lg-6 col-sm-12">
-            <a href="./index.html"><img class="header_image rounded float-start img-fluid" src="images/logo_nobackground.png" alt="logo_naturally"></a>
-        </div>
-        <nav class="col-lg-6 d-none d-lg-block">
-            <ul class="navbar_list d-flex justify-content-end list-unstyled">
-                <li class="m-3"><a class="navbar_item text-decoration-none" href="pages/menu.html">MENÚ COMPLETO</a></li>
-                <li class="m-3"><a class="navbar_item text-decoration-none" href="pages/build_your_salad.html">ARMÁ TU ENSALADA</a></li>
-                <li class="m-3"><a class="navbar_item text-decoration-none" href="pages/about_us.html">¿QUIÉNES SOMOS?</a></li>
-                <li class="m-3"><a class="navbar_item text-decoration-none" href="pages/contact.html">CONTACTO</a></li>
+    <header>
+        <a class="header_image_link" href="index.html"><img class="header_image rounded" src="./images/logo_nobackground.png" alt="logo_naturally"></a> 
+        <nav class="header_navbar">
+            <ul class="header_navbar_list">
+                <li><a class="header_navbar_item" href="./pages/menu.html">MENÚ COMPLETO</a></li>
+                <li><a class="header_navbar_item" href="./pages/build_your_salad.html">ARMÁ TU ENSALADA</a></li>
+                <li><a class="header_navbar_item" href="./pages/about_us.html">¿QUIÉNES SOMOS?</a></li>
+                <li><a class="header_navbar_item" href="./pages/contact.html">CONTACTO</a></li>
             </ul>
         </nav>
+        <div class="header_dropdown btn-group">
+            <button class="btn btn-secondary btn-lg dropdown-toggle header_dropdown_button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg class="header_dropdown_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+            <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-menu_item" href="./pages/index.html">Inicio</a></li>
+                <li><a class="dropdown-menu_item" href="./pages/menu.html">Menú completo</a></li>
+                <li><a class="dropdown-menu_item" href="./pages/build_your_salad.html">Armá tu ensalada</a></li>
+                <li><a class="dropdown-menu_item" href="./pages/about_us.html">¿Quiénes somos?</a></li>
+                <li><a class="dropdown-menu_item" href="./pages/contact.html">Contacto</a></li>
+            </ul>
+          </div>
     </header>
     <main class="index_main bg-image row">
         <div class="index_title col-lg-12 d-flex flex-wrap align-items-center">
