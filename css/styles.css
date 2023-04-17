@@ -76,50 +76,28 @@ header {
     color: grey;
 }
 
-.index_main {
-    background-image: url(../images/index_salad2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:100vh;
-    overflow: hidden;
-}
-
-.index_title {
-    width: 100%;
-}
-
-.index_title_text {
-    color: white;
-    font-size: 55px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
-
-.index_subtitle_text {
-    color: white;
-    font-size: 18px;  
-}
-
-.index_button {
-    background-color: rgb(201, 169, 127);
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 5px;
-}
+/* ESTILOS EN FOOTER */
 
 .footer {
     background-color: rgb(183, 230, 112);
     padding-bottom: 25px;
+    height: 160px;
 }
 
-.footer_div {
-    margin-top: 13px;
+.footer_div_info, .footer_div_followus {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
     padding:0;
+    height: 100%;
+}
+
+.footer_div_dondeestamos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    padding: 0;
+    height: 100%;
 }
 
 .footer_title {
@@ -127,13 +105,18 @@ header {
     margin-bottom: 10px;
 }
 
-.footer_information {
+.footer_followus, .footer_infogeneral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding:0px; 
     width: 100%;
+    height: 100%;
 }
 
-.footer_information_info {
+.footer_followus_info, .footer_infogeneral_info, .footer_dondeestamos_info {
     list-style: none;
+    font-family: 'Rubik', sans-serif;  
 }
 
 .footer_followus_link {
@@ -170,6 +153,42 @@ header {
     max-width: 100%;
     max-height: 100%;
     border-radius: 100%;
+}
+
+.index_main {
+    background-image: url(../images/index_salad2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow: hidden;
+}
+
+.index_title {
+    width: 100%;
+}
+
+.index_title_text {
+    color: white;
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.index_subtitle_text {
+    color: white;
+    font-size: 18px;  
+}
+
+.index_button {
+    background-color: rgb(201, 169, 127);
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .menu, .contact, .build, .our_history {
