@@ -10,6 +10,22 @@ header {
     justify-content: space-between;
 }
 
+.header_index {
+    height: 55px;
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: 991px)
+
+    {
+        justify-content: center;
+    }
+}
+
 .header_image_link, .header_image {
     height: 100%;
 }
@@ -82,6 +98,21 @@ header {
     background-color: rgb(183, 230, 112);
     padding-bottom: 25px;
     height: 180px;
+
+    @media (max-width: 991px)
+
+    {
+        height: auto;
+    }
+}
+
+.footer_div_image {
+
+    @media (max-width: 991px)
+
+    {
+        display: none !important;
+    }
 }
 
 .footer_div_info, .footer_div_followus {
@@ -98,6 +129,23 @@ header {
     margin-top: 7px;
     padding: 0;
     height: 100%;
+
+    @media (max-width: 991px)
+
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer_div_dondeestamos_info {
+    width: 50%;
+
+    @media (max-width: 991px)
+
+    {
+        width: 100%;
+    }
 }
 
 .footer_title {
@@ -125,9 +173,16 @@ header {
 
 .footer_map {
     height: 100%; 
-    width: 100%;
+    width: 50%;
     padding-left: 2px;
+    padding-right: 5%;
     border-radius: 4%;
+
+    @media (max-width: 991px)
+
+    {
+        width: 100%;
+    }
 }
 
 .footer_rrss {
@@ -136,11 +191,12 @@ header {
     display: flex; 
     flex-direction: row; 
     align-items: center; 
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .footer_rrss_link {
     height: 50%;
+    margin-left: 15px;
 }
 
 .footer_rrss_image {
