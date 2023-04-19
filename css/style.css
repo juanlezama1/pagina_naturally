@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* ESTILOS EN HEADER */
+header {
+  height: 55px;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_index {
+  height: 55px;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .header_index {
+    justify-content: center;
+  }
+}
+
+.header_image_link, .header_image {
+  height: 100%;
+}
+
+.header_navbar {
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .header_navbar {
+    display: none;
+  }
+}
+
+.header_navbar_list {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.header_navbar_item {
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.header_dropdown {
+  height: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+@media (min-width: 992px) {
+  .header_dropdown {
+    display: none;
+  }
+}
+
+.header_dropdown_icon {
+  height: 100%;
+  width: 100%;
+}
+
+.header_dropdown_button, .header_dropdown_button.show, .header_dropdown_button:hover, .header_dropdown_button:focus,
+.header_dropdown_button:active, .btn:first-child:active {
+  background-color: rgb(154, 206, 75);
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu_item {
+  text-decoration: none;
+  color: grey;
+}
+
+/* ESTILOS EN FOOTER */
+.footer {
+  background-color: rgb(183, 230, 112);
+  padding-bottom: 25px;
+  height: 180px;
+}
+@media (max-width: 991px) {
+  .footer {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer_div_image {
+    display: none !important;
+  }
+}
+
+.footer_div_info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+  padding: 0;
+  height: 100%;
+}
+
+.footer_div_followus {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+  padding: 0;
+  height: 100%;
+}
+
+.footer_div_dondeestamos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+  padding: 0;
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .footer_div_dondeestamos {
+    flex-direction: column;
+  }
+}
+
+.footer_div_dondeestamos_info {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .footer_div_dondeestamos_info {
+    width: 100%;
+  }
+}
+
+.footer_title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_title_rrss {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.footer_infogeneral {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  width: 100%;
+}
+
+.footer_followus_image {
+  width: 100%;
+  height: 100%;
+}
+
+.footer_infogeneral_info, .footer_dondeestamos_info {
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+.footer_map {
+  height: 100%;
+  width: 50%;
+  padding-left: 2px;
+  padding-right: 5%;
+  border-radius: 4%;
+}
+@media (max-width: 991px) {
+  .footer_map {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.footer_rrss {
+  width: 100%;
+  height: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media (max-width: 991px) {
+  .footer_rrss {
+    height: 50px;
+  }
+}
+
+.footer_rrss_link {
+  height: 50%;
+  margin-left: 15px;
+}
+
+.footer_rrss_image {
+  height: 50%;
+}
+@media (max-width: 991px) {
+  .footer_rrss_image {
+    height: 75%;
+  }
+}
+
+.rights {
+  background-color: rgb(183, 230, 112);
+}
+
+.rights_text {
+  font-size: 13px;
+  font-style: italic;
+  color: grey;
+}
+
+.whatsapp_button {
+  width: 60px;
+  height: 60px;
+  bottom: 17px;
+  right: 17px;
+  position: fixed;
+}
+
+.whatsapp_image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100%;
+}
+
+.index_main {
+  background-image: url(../images/index_salad2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.index_title {
+  width: 100%;
+}
+
+.index_title_text {
+  color: white;
+  font-size: 55px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.index_subtitle_text {
+  color: white;
+  font-size: 18px;
+}
+
+.index_button {
+  background-color: rgb(201, 169, 127);
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menu, .contact, .build, .our_history {
+  background-image: url(../images/image4.png);
+}
+
+.menu_image {
+  width: 100%;
+}
+
+.menu_title {
+  font-family: "Rubik", sans-serif;
+  padding-top: 3px;
+}
+
+textarea {
+  background-color: rgb(220, 241, 187);
+  margin: 15px;
+  border-color: white;
+  border-radius: 8px;
+}
+
+input {
+  background-color: rgb(220, 241, 187);
+  margin: 15px;
+  border-color: white;
+  border-radius: 8px;
+}
+
+select {
+  margin: 15px;
+  border-radius: 8px;
+  background-color: rgb(220, 241, 187);
+}
+
+.contact_label {
+  font-family: "Amiko", sans-serif;
+}
+
+.contact_item {
+  width: 500px;
+  margin-left: 400px;
+}
+
+.contact_input {
+  flex-grow: 1;
+}
+
+.contact_title, .menu_titulo, .arma_titulo, .aboutus_titulo {
+  font-family: "Rubik", sans-serif;
+}
+
+.contact_subtitle, .menu_subtitulo, .arma_subtitulo, .menu_description {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Tipografías disponibles: */
+/* font-family: 'Amiko', sans-serif;
+font-family: 'Chivo', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/*# sourceMappingURL=style.css.map */
