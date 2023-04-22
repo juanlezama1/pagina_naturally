@@ -269,7 +269,7 @@ header {
 
 .index_main_mobile {
 
-    background-image: url(../images/image_mobile.jpg);
+    background-image: url(../images/image_mobile3.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -293,6 +293,44 @@ header {
     width: 100%;
     padding: 0px;
     margin: 0px;
+}
+
+.index_title_mobile h1, p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.index_title_mobile h1 {
+    margin-top:9px;
+    font-size: 35px;
+}
+
+.index_title_mobile p {
+    font-size: 22px;
+}
+
+.index_option_mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.index_option_mobile a{
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    border-color: black;
+    font-weight: 600;
+    font-size:20px;
+    color:black;
+}
+
+.last_option {
+    margin-bottom: 15px !important;
 }
 
 .index_subtitle_text {
