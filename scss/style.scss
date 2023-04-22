@@ -386,9 +386,15 @@ select {
 }
 
 .contact_item {
-    width: 500px;
-    margin-left: 400px;
-}
+    width: 36vw;
+    margin-left: 29vw;
+  }
+  @media (max-width: 991px) {
+    .contact_item {
+      width: 98vw;
+      margin-left: 2vw;
+    }
+  }
 
 .contact_input {
     flex-grow: 1;
