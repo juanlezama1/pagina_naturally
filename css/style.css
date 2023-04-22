@@ -235,12 +235,28 @@ header {
   border-radius: 100%;
 }
 
-.index_main {
+.index_main_desktop {
   background-image: url(../images/index_salad2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden;
+}
+@media (max-width: 991px) {
+  .index_main_desktop {
+    display: none;
+  }
+}
+
+.index_main_mobile {
+  background-image: url(../images/image_mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 992px) {
+  .index_main_mobile {
+    display: none;
+  }
 }
 
 .index_title {
