@@ -385,6 +385,8 @@ header {
   margin: 15px;
   border-color: white;
   border-radius: 8px;
+  font-family: "Amiko", sans-serif;
+  font-weight: 700;
 }
 
 .contact_title {
