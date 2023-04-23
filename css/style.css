@@ -250,6 +250,7 @@ header {
 }
 
 .index_main_mobile {
+  height: 600px;
   background-image: url(../images/image_mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -299,6 +300,7 @@ header {
 .index_option_mobile a {
   padding: 15px;
   margin: 10px;
+  height: 60px;
   text-decoration: none;
   border-width: 1px;
   border-style: solid;
