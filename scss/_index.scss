@@ -1,0 +1,97 @@
+/* ESTILOS EN LA PÁGINA INICIAL */
+
+.index_main_desktop {
+    background-image: url(../images/index_salad2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow: hidden;
+
+    @media (max-width: 991px)
+
+    {
+        display:none;
+    }
+}
+
+.index_main_mobile {
+
+    background-image: url(../images/image_mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (min-width: 992px)
+
+    {
+        display:none;
+    }
+}
+
+.index_title {
+    width: 100%;
+}
+
+.index_title_text {
+    color: white;
+    font-size: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.index_title_mobile h1, p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.index_title_mobile h1 {
+    margin-top:9px;
+    font-size: 35px;
+}
+
+.index_title_mobile p {
+    font-size: 22px;
+}
+
+.index_option_mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.index_option_mobile a{
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    font-family: 'Inter', sans-serif;
+    border-color: black;
+    font-weight: 600;
+    font-size:20px;
+    color:black;
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+
+.index_subtitle_text {
+    color: white;
+    font-size: 18px;  
+}
+
+.index_button {
+    background-color: rgb(201, 169, 127);
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.index_lastoption {
+    margin-bottom: 15px !important;
+}
+

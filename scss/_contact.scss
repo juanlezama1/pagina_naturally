@@ -1,0 +1,49 @@
+/* ESTILOS EN LA PÁGINA DE CONTACTO */
+
+.contact {
+    background-image: url(../images/image4.png);
+}
+
+.contact_label {
+    font-family: 'Amiko', sans-serif;
+}
+
+.contact_item {
+    width: 36vw;
+    margin-left: 29vw;
+  }
+  @media (max-width: 991px) {
+    .contact_item {
+      width: 98vw;
+      margin-left: 2vw;
+    }
+  }
+
+.contact_input {
+    flex-grow: 1;
+    background-color: rgb(220, 241, 187);
+    margin: 15px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.contact_submit {
+  background-color: rgb(220, 241, 187);
+  margin: 15px;
+  border-color: white;
+  border-radius: 8px;
+}
+
+.contact_title{
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact_subtitle{
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact_motivocontacto {
+  margin: 15px;
+  border-radius: 8px;
+  background-color: rgb(220, 241, 187);
+}

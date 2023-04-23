@@ -235,6 +235,7 @@ header {
   border-radius: 100%;
 }
 
+/* ESTILOS EN LA PÁGINA INICIAL */
 .index_main_desktop {
   background-image: url(../images/index_salad2.jpg);
   background-size: cover;
@@ -310,10 +311,6 @@ header {
   opacity: 0.7;
 }
 
-.last_option {
-  margin-bottom: 15px !important;
-}
-
 .index_subtitle_text {
   color: white;
   font-size: 18px;
@@ -327,7 +324,12 @@ header {
   border-radius: 5px;
 }
 
-.menu, .contact, .build, .our_history {
+.index_lastoption {
+  margin-bottom: 15px !important;
+}
+
+/* ESTILOS EN LA PÁGINA DE MENÚ */
+.menu {
   background-image: url(../images/image4.png);
 }
 
@@ -340,24 +342,17 @@ header {
   padding-top: 3px;
 }
 
-textarea {
-  background-color: rgb(220, 241, 187);
-  margin: 15px;
-  border-color: white;
-  border-radius: 8px;
+.menu_titulo {
+  font-family: "Rubik", sans-serif;
 }
 
-input {
-  background-color: rgb(220, 241, 187);
-  margin: 15px;
-  border-color: white;
-  border-radius: 8px;
+.menu_subtitulo, .menu_description {
+  font-family: "Rubik", sans-serif;
 }
 
-select {
-  margin: 15px;
-  border-radius: 8px;
-  background-color: rgb(220, 241, 187);
+/* ESTILOS EN LA PÁGINA DE CONTACTO */
+.contact {
+  background-image: url(../images/image4.png);
 }
 
 .contact_label {
@@ -377,21 +372,53 @@ select {
 }
 .contact_input {
   flex-grow: 1;
+  background-color: rgb(220, 241, 187);
+  margin: 15px;
+  border-color: white;
+  border-radius: 8px;
 }
 
-.contact_title, .menu_titulo, .arma_titulo, .aboutus_titulo {
+.contact_submit {
+  background-color: rgb(220, 241, 187);
+  margin: 15px;
+  border-color: white;
+  border-radius: 8px;
+}
+
+.contact_title {
   font-family: "Rubik", sans-serif;
 }
 
-.contact_subtitle, .menu_subtitulo, .arma_subtitulo, .menu_description {
+.contact_subtitle {
   font-family: "Rubik", sans-serif;
 }
 
-/* Tipografías disponibles: */
-/* font-family: 'Amiko', sans-serif;
-font-family: 'Chivo', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; */
+.contact_motivocontacto {
+  margin: 15px;
+  border-radius: 8px;
+  background-color: rgb(220, 241, 187);
+}
+
+/* ESTILOS EN LA PÁGINA DE BUILD YOUR SALAD */
+.build {
+  background-image: url(../images/image4.png);
+}
+
+.build_title {
+  font-family: "Rubik", sans-serif;
+}
+
+.build_subtitle {
+  font-family: "Rubik", sans-serif;
+}
+
+/* ESTILOS EN LA PÁGINA DE CONTACTO */
+.about_us {
+  background-image: url(../images/image4.png);
+}
+
+.aboutus_titulo {
+  font-family: "Rubik", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
