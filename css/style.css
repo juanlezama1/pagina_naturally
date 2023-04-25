@@ -573,5 +573,12 @@
     display: none;
   }
 }
+.card-content h2 {
+  font-family: "Rubik", sans-serif;
+}
+
+.card-content p {
+  font-family: "Amiko", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */

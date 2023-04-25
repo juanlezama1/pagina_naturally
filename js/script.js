@@ -6,7 +6,7 @@ var swiper = new Swiper(".slide-content", {
   fade: 'true',
   grabCursor: 'true',
   autoplay: {
-    delay: 950, // tiempo de espera entre cada cambio de slide en milisegundos
+    delay: 1500, // tiempo de espera entre cada cambio de slide en milisegundos
     disableOnInteraction: false, // el autoplay no se detendrá cuando el usuario interactúa con el swiper
   },
   pagination: {
