@@ -291,7 +291,7 @@
   padding-top: 8px;
 }
 
-.index_title_mobile h1, p {
+.index_title_mobile h1, .index_title_mobile p {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -429,6 +429,51 @@
 
 .build_subtitle {
   font-family: "Rubik", sans-serif;
+}
+
+.build_categoriaingrediente {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+form h3 {
+  font-weight: 500;
+}
+
+.build_instruccion {
+  font-style: italic;
+}
+
+.build_seccionpago {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-family: "Amiko", sans-serif;
+}
+
+.build_contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.build_input, .build_horarioretiro {
+  background-color: rgb(220, 241, 187);
+  border-color: white;
+  border-radius: 8px;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.build_submit {
+  width: 30%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.boton_pago {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* ESTILOS EN LA PÁGINA DE CONTACTO */
