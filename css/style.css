@@ -476,6 +476,10 @@ form h3 {
   justify-content: center;
 }
 
+.build_image {
+  width: 75%;
+}
+
 /* ESTILOS EN LA PÁGINA DE CONTACTO */
 .about_us {
   background-image: url(../images/image4.png);
