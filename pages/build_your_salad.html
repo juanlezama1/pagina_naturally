@@ -42,7 +42,351 @@
         </div>
     </header>
 
-    <main class="build">
+    <!-- VERSIÓN MOBILE -->
+
+    <main class="build_mobile">
+
+        <div class="row p-4 pb-1">
+            <div class="col-lg-12">
+                <h1 class="build_title text-center">ARMÁ TU ENSALADA PASO A PASO!</h1>
+                <p class="build_subtitle text-center">
+                    CREÁ UNA ENSALADA ÚNICA Y SALUDABLE CON LOS MEJORES INGREDIENTES.<br>
+                    NOSOTROS NOS OCUPAMOS DEL RESTO
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <button class="build_button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#hojasverdes" aria-expanded="false" aria-controls="collapseExample">
+                    PASO 1: BLEND DE HOJAS VERDES
+                </button>
+            </div>
+
+            <form action="" class="col-12 collapse build_categoriaingrediente" id="hojasverdes">
+                <p class="build_instruccion">MÁX: 1 BLEND/ALTERNATIVA</p>
+                <div class="build_blend">
+                    <input type="radio" value="BLEND_DE_LA_CASA" name="hojas_verdes">
+                    <label for="BLEND_DE_LA_CASA">BLEND DE LA CASA</label>
+                    <ul>
+                        <li>Lechuga Morada</li>
+                        <li>Lechuga Romana</li>
+                        <li>Lechuga Escarola</li>
+                    </ul>
+                </div>
+                <div class="build_blend">
+                    <input type="radio" value="BLEND_ITALIANO" name="hojas_verdes">
+                    <label for="BLEND_ITALIANO">BLEND ITALIANO</label>
+                    <ul>
+                        <li>Rúcula</li>
+                        <li>Espinaca</li>
+                        <li>Radicchio</li>
+                    </ul>
+                </div>
+                <div class="build_blend">
+                    <input type="radio" value="BLEND_CRIOLLO" name="hojas_verdes">
+                    <label for="BLEND_CRIOLLO">BLEND CRIOLLO</label>
+                    <ul>
+                        <li>Rúcula</li>
+                        <li>Lechuga Romana</li>
+                        <li>Radicheta</li>
+                    </ul>
+                </div>
+                <div class="build_blend">
+                    <input type="radio" value="BLEND:ARROZ" name="hojas_verdes">
+                    <label for="BLEND:ARROZ">ALTERNATIVA: ARROZ YAMANÍ</label>
+                </div>
+    
+                <div class="build_blend">
+                    <input type="radio" value="BLEND:ZANAHORIA" name="hojas_verdes">
+                    <label for="BLEND:ZANAHORIA">ALTERNATIVA: ZANAHORIA</label>
+                </div>
+            </form>
+
+            <div class="col-12">
+                <button class="build_button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#ingredientesprincipales" aria-expanded="false" aria-controls="collapseExample">
+                    PASO 2: INGREDIENTES PRINCIPALES
+                </button>
+            </div>
+
+            <form action="" class="col-12 collapse build_categoriaingrediente" id="ingredientesprincipales">
+                <p class="build_instruccion">MÁX: 4 INGREDIENTES</p>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="ZANAHORIA">
+                    <label for="ZANAHORIA">Zanahoria</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="CEBOLLA">
+                    <label for="CEBOLLA">Cebolla</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="CEBOLLA_MORADA">
+                    <label for="CEBOLLA_MORADA">Cebolla Morada</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="CHOCLO">
+                    <label for="CHOCLO">Choclo</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="REPOLLO">
+                    <label for="REPOLLO">Repollo</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="REMOLACHA">
+                    <label for="REMOLACHA">Remolacha</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="BRÓCOLI">
+                    <label for="BRÓCOLI">Brócoli</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="APIO">
+                    <label for="APIO">Apio</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="BROTES_SOJA">
+                    <label for="BROTES_SOJA">Brotes de Soja</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="HUEVO">
+                    <label for="HUEVO">Huevo Duro</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="PEPINO">
+                    <label for="PEPINO">Pepino</label>
+                </div>
+                
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="CRUTONS">
+                    <label for="CRUTONS">Crutons</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="SEMILLAS">
+                    <label for="SEMILLAS">Semillas Varias</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="CHAUCHAS">
+                    <label for="CHAUCHAS">Chauchas</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="RABANITOS">
+                    <label for="RABANITOS">Rabanitos</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="FIDEOS">
+                    <label for="FIDEOS">Fideos Tricolor</label>
+                </div>
+
+                <div class="ingrediente_individual">
+                    <input type="checkbox" value="ARROZ">
+                    <label for="ARROZ">Arroz Yamaní</label>
+                </div>
+            </form>
+
+            <div class="col-12">
+                <button class="build_button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#ingredientepremium" aria-expanded="false" aria-controls="collapseExample">
+                    PASO 3: INGREDIENTE PREMIUM
+                </button>
+            </div>
+
+            <form action="" class="col-12 collapse build_categoriaingrediente" id="ingredientepremium">
+                <p class="build_instruccion">MÁX: 1 INGREDIENTE PREMIUM</p>
+
+                <div class="build_premium">
+                    <input type="radio" value="HONGOS" name="premium">
+                    <label for="HONGOS">Hongos Portobello</label>
+                </div>
+
+                <div class="build_premium">
+                    <input type="radio" value="PALTA" name="premium">
+                    <label for="PALTA">Palta</label>
+                </div>
+
+                <div class="build_premium">
+                    <input type="radio" value="FRUTOS_SECOS" name="premium">
+                    <label for="FRUTOS_SECOS">Frutos Secos</label>
+                </div>
+
+                <div class="build_premium">
+                    <input type="radio" value="TOMATES_SECOS" name="premium">
+                    <label for="TOMATES_SECOS">Tomates Secos</label>
+                </div>
+
+                <div class="build_premium">
+                    <input type="radio" value="ALCAPARRAS" name="premium">
+                    <label for="ALCAPARRAS">Alcaparras</label>
+                </div>
+            </form>
+
+            <div class="col-12">
+                <button class="build_button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#proteina" aria-expanded="false" aria-controls="collapseExample">
+                    PASO 4: PROTEÍNA
+                </button>
+            </div>
+
+            <form action="" class="col-12 collapse build_categoriaingrediente" id="proteina">
+                <p class="build_instruccion">MÁX: 1 PROTEÍNA</p>
+
+                <div class="build_protein">
+                    <input type="radio" value="POLLO_GRILLADO" name="proteina">
+                    <label for="POLLO_GRILLADO">Pollo Grillado</label>
+                </div>
+    
+                <div class="build_protein">
+                    <input type="radio" value="POLLO_TERIYAKI" name="proteina">
+                    <label for="POLLO_TERIYAKI">Pollo Teriyaki</label>
+                </div>
+    
+                <div class="build_protein">
+                    <input type="radio" value="POLLO_CURRY" name="proteina">
+                    <label for="POLLO_CURRY">Pollo al Curry</label>
+                </div>
+    
+                <div class="build_protein">
+                    <input type="radio" value="PANCETA" name="proteina">
+                    <label for="PANCETA">Panceta crocante</label>
+                </div>
+    
+                <div class="build_protein">
+                    <input type="radio" value="ATÚN" name="proteina">
+                    <label for="ATÚN">Atún Especial</label>
+                </div>
+            </form>
+
+            <div class="col-12">
+                <button class="build_button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#queso" aria-expanded="false" aria-controls="collapseExample">
+                    PASO 5: QUESO
+                </button>
+            </div>
+
+            <form action="" class="col-12 build_categoriaingrediente collapse" id="queso">
+
+                <p class="build_instruccion">MÁX: 1 QUESO</p>
+
+                <div class="build_queso">
+                    <input type="radio" value="PARMESANO" name="queso">
+                    <label for="PARMESANO">Parmesano</label>
+                </div>
+
+                <div class="build_queso">
+                    <input type="radio" value="AZUL" name="queso">
+                    <label for="AZUL">Azul</label>
+                </div>
+
+                <div class="build_queso">
+                    <input type="radio" value="BRIE" name="queso">
+                    <label for="BRIE">Brie</label>
+                </div>
+            </form>
+
+            <div class="col-12">
+                <button class="build_button btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#aderezos" aria-expanded="false" aria-controls="collapseExample">
+                    PASO 6: ADEREZOS
+                </button>
+            </div>
+
+            <form action="" class="col-12 build_categoriaingrediente collapse" id="aderezos">
+
+                <p class="build_instruccion">MÁX: 2 ADEREZOS</p>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="CAESAR">
+                    <label for="CAESAR">Caesar</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="ADEREZO:AZUL">
+                    <label for="ADEREZO:AZUL">Queso Azul</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="VINAGRETA_MOSTAZA">
+                    <label for="VINAGRETA_MOSTAZA">Vinagreta de Mostaza</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="VINAGRETA_ORIENTAL">
+                    <label for="VINAGRETA_ORIENTAL">Vinagreta Oriental</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="OLIVA">
+                    <label for="OLIVA">Aceite de Oliva Extra-Virgen</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="ACETO">
+                    <label for="ACETO">Reducción de Aceto</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="ACEITE_ALBAHACA">
+                    <label for="ACEITE_ALBAHACA">Aceite con Albahaca</label>
+                </div>
+
+                <div class="build_aderezo">
+                    <input type="checkbox" value="LIMÓN">
+                    <label for="LIMÓN">Jugo de Limón</label>
+                </div>
+            </form>
+        </div>
+
+        <div class="build_seccionpago row">
+            <div class="col-12">
+                <h2 class="text-center">Datos para retirar:</h2>
+                <form id="PickUpForm" class="build_contact" action="">
+                    <label class="text-center" for="pick up name">Nombre de quien retira:</label>
+                    <input class="build_input text-center" type="text" id="pick up name" name="pick up name" placeholder="Nombre y Apellido">
+
+                    <label class="text-center" for="pick up phone">Teléfono de referencia:</label>
+                    <input class="build_input text-center" type="text" id="pick up phone" name="pick up phone" placeholder="+54 11 5555-5555">
+
+                    <label class="text-center" for="pick up comments">Comentarios adicionales:</label>
+                    <textarea class="build_input text-center" id="pick up comments" name="pick up comments" rows="2" cols="40" placeholder="En caso de no tener zanahoria..."></textarea>
+
+                    <label class="build_horario_label text-center" for="pick up time">Horario de retiro</label>
+                    <select class="build_horarioretiro text-center" name="pick up time" id="pick up time">
+                        <option value="12">12 HS</option>
+                        <option value="13">13 HS</option>
+                        <option value="14">14 HS</option>
+                        <option value="15">15 HS</option>
+                    </select>
+                </form>
+
+                <div class="build_seccionpago">
+                    <h2 class="text-center">¿Completaste tu pedido?</h2>
+                    <p class="text-center">Ensalada completa paso a paso: <b>$1800</b></p>
+
+                    <div class="boton_pago">
+                        <input style="width: 65%;" class="build_submit" type="image" src="../images/mercadopago-og.jpg" alt="submit button">
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+
+
+
+
+    </main>
+
+    <!-- VERSIÓN DESKTOP  -->
+    <main class="build_desktop">
 
         <div class="row p-4">
             <div class="col-lg-12">

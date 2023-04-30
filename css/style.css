@@ -419,8 +419,22 @@
 }
 
 /* ESTILOS EN LA PÁGINA DE BUILD YOUR SALAD */
-.build {
+.build_desktop {
   background-image: url(../images/image4.png);
+}
+@media (max-width: 991px) {
+  .build_desktop {
+    display: none;
+  }
+}
+
+.build_mobile {
+  background-image: url(../images/image4.png);
+}
+@media (min-width: 992px) {
+  .build_mobile {
+    display: none;
+  }
 }
 
 .build_title {
@@ -478,6 +492,12 @@ form h3 {
 
 .build_image {
   width: 75%;
+}
+
+.build_button {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* ESTILOS EN LA PÁGINA DE CONTACTO */
