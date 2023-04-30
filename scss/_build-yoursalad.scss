@@ -82,3 +82,15 @@ form h3 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.build_button {
+    background-color: rgb(165, 214, 92);
+}
+
+.build_button:active {
+    background-color: rgb(57, 107, 29);
+}
+
+.build_button:hover {
+    background-color: rgb(57, 107, 29);
+}
