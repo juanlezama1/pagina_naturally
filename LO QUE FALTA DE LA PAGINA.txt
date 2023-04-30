@@ -1,12 +1,10 @@
 3) ARREGLAR INDEX DESKTOP QUE ESTÁ FEO
 4) HACER UN SCSS DE VARIABLES Y SUMARLO CON LOS ESTILOS QUE SE REPITEN
 5) VER SI SE PUEDE METER @EXTEND y @MIXIN EN ALGÚN SASS
-6) APLICAR UN GRADIENTE PARA COLORES (linear-gradient / radial-gradient)
 7) APLICAR ALGUNA TRANSFORMACIÓN (ESCALAR/ROTAR/TRANSLADAR) usando una transición de hover, es decir, cuando pasamos
 el mouse por encima. Puede ser en la navbar o algo.
-Tener en cuenta que en la vista mobile no sirve de nada del hover, tendría que ser un efecto que se repita constamente
-sin necesidad de pasar el mouse.
 8) METER ALGÚN HOVER SOBRE LA NAVBAR/ÍCONO
 9) AGREGAR SCROLLERO DINÁMICO CON DATA AOS -> se puede aplicar en el header y en el footer
 10) AGREGAR SEO A LA PÁGINA
 11) AGREGAR COMENTARIOS PARA DEJAR ORDENADO POR PARTES
+12) VER QUE LAS IMÁGNES NO PESEN MÁS DE 1 MB. AJUSTAR RESOLUCIÓN Y DPI
