@@ -36,6 +36,27 @@
     height: 100%;
 }
 
+@keyframes movimiento_logo_naturally {
+    0% {
+        transform:translate(0px, 0px);
+    }
+
+    50% {
+        transform:translate(15px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.header_image:hover {
+    animation-name: movimiento_logo_naturally;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 1s;
+}
+
 .header_navbar {
 
     height: 100%;
@@ -63,6 +84,13 @@
     text-decoration: none;
     padding-left: 13px;
     padding-right: 13px;
+}
+
+.header_navbar_item:hover{
+    display:inline-block;
+    transform: scale(1.13);
+    transition: transform 0.2s ease-in-out;
+    color:green;
 }
 
 .header_dropdown {

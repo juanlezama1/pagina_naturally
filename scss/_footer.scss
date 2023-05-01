@@ -134,6 +134,12 @@
     }
 }
 
+.footer_rrss_image:hover{
+    display:inline-block;
+    transform: scale(1.5);
+    transition: transform 0.2s ease-in-out;
+}
+
 .rights {
     background-image: linear-gradient(to right, rgb(183,230,112), rgb(88, 228, 88), rgb(201, 226, 169));
 
