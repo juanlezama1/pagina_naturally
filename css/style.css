@@ -323,7 +323,7 @@
 }
 /* ESTILOS EN LA PÁGINA INICIAL */
 .index_main_desktop {
-  background-image: url(../images/index_salad2.jpg);
+  background-image: url(../images/index_bg_desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -342,7 +342,7 @@
 
 .index_main_mobile {
   height: 600px;
-  background-image: url(../images/image_mobile.jpg);
+  background-image: url(../images/index_bg_mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -445,7 +445,7 @@
 
 /* ESTILOS EN LA PÁGINA DE MENÚ */
 .menu {
-  background-image: url(../images/image4.png);
+  background-image: url(../images/aboutus_bg.png);
 }
 
 .menu_image {
@@ -467,7 +467,7 @@
 
 /* ESTILOS EN LA PÁGINA DE CONTACTO */
 .contact {
-  background-image: url(../images/image4.png);
+  background-image: url(../images/aboutus_bg.png);
 }
 
 .contact_label {
@@ -518,7 +518,7 @@
 
 /* ESTILOS EN LA PÁGINA DE BUILD YOUR SALAD */
 .build_desktop {
-  background-image: url(../images/image4.png);
+  background-image: url(../images/aboutus_bg.png);
 }
 @media (max-width: 991px) {
   .build_desktop {
@@ -527,7 +527,7 @@
 }
 
 .build_mobile {
-  background-image: url(../images/image4.png);
+  background-image: url(../images/aboutus_bg.png);
 }
 @media (min-width: 992px) {
   .build_mobile {
@@ -613,7 +613,7 @@ form h3 {
 
 /* ESTILOS EN LA PÁGINA DE CONTACTO */
 .about_us {
-  background-image: url(../images/image4.png);
+  background-image: url(../images/aboutus_bg.png);
 }
 
 .aboutus_titulo {
