@@ -1,0 +1,1 @@
+Maquetado: Todas las páginas fueron maquetadas con el sistema de Bootstrap. Sin embargo, con el objetivo de cumplir la consigna y maquetar con el sistema de GRIDS, volví a realizar la página de Contacto, maquetándola con GRIDS. Esta se encuentra en la carpeta de PAGES con el nombre de contact_grids 
