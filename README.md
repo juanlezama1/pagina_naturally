@@ -26,5 +26,4 @@ En la sección de "Armá tu ensalada", agregué una función de JavaScript para 
 ------------------------------- FIN  ---------------------------
 
 Espero que les guste!
-Saludos
-Juan Pablo Lezama
+Saludos, Juan Pablo Lezama
