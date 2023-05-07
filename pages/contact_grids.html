@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dejá tus datos para que el personal de Naturally se ponga en contacto contigo a la brevedad">
+    <meta name="keywords" content="Naturally, formulario de contacto, contact us, ponte en contacto, contactanos, atencion al cliente">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Naturally: Contacto - CON GRIDS </title>
+    <link rel="shortcut icon" href="../images/index_icon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="contact2">
+
+    <header class="contact2_header header_menues">
+        <a class="header_image_link" href="../index.html"><img class="header_image rounded" src="../images/footer_logo.png" alt="logo_naturally"></a> 
+        <nav class="header_navbar">
+            <ul class="header_navbar_list">
+                <li><a class="header_navbar_item" href="menu.html">MENÚ COMPLETO</a></li>
+                <li><a class="header_navbar_item" href="build_your_salad.html">ARMÁ TU ENSALADA</a></li>
+                <li><a class="header_navbar_item" href="about_us.html">¿QUIÉNES SOMOS?</a></li>
+                <li><a class="header_navbar_item" href="contact.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="header_dropdown btn-group">
+            <button class="btn btn-secondary btn-lg dropdown-toggle header_dropdown_button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg class="header_dropdown_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+            <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-menu_item" href="../index.html">Inicio</a></li>
+                <li><a class="dropdown-menu_item" href="./menu.html">Menú completo</a></li>
+                <li><a class="dropdown-menu_item" href="./build_your_salad.html">Armá tu ensalada</a></li>
+                <li><a class="dropdown-menu_item" href="./about_us.html">¿Quiénes somos?</a></li>
+                <li><a class="dropdown-menu_item" href="./contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="contact2_main">
+
+        <div class="contact2_main_title p-4">
+            <h1 class="contact_title text-center">CONTACTO</h1>
+            <p class="contact_subtitle text-center">¿TENÉS ALGUNA CONSULTA? ¡COMPLETÁ EL SIGUIENTE FORMULARIO Y TE RESPONDEREMOS DENTRO DE LAS PRÓXIMAS 48HS HÁBILES!</p>
+        </div>
+
+        <form action="" class="contact2_main_form">
+
+            <div class="contact2_main_form_name contact_item d-flex flew-row align-items-center">
+                <label class="contact_label" for="name">Nombre completo</label>
+                <input class="contact_input" type="text" id="name" name="name" placeholder="Nombre y apellido">
+            </div>
+
+            <div class="contact2_main_form_email contact_item d-flex flex-row align-items-center">
+                <label class="contact_label" for="email">Correo electrónico </label>
+                <input class="contact_input" type="email" id="email" name="email" placeholder="hola@contacto.com">
+            </div>
+
+            <div class="contact2_main_form_phone contact_item d-flex flex-row align-items-center">
+                <label class="contact_label" for="phone_number">Teléfono de contacto</label>
+                <input class="contact_input" type="text" id="phone_number" name="phone_number" placeholder="+54 11 5555-5555">
+            </div>
+            
+            <div class="contact2_main_form_reason contact_item d-flex flex-row align-items-center">
+                <label class="contact_label" for="reason">Motivo de contacto</label>
+                <select class="contact_motivocontacto" name="reason" id="reason">
+                    <option value="suggestion">Sugerencia</option>
+                    <option value="complaint">Reclamo</option>
+                    <option value="other">Otro/s</option>
+                </select>
+            </div>
+
+            <div class="contact2_main_form_message contact_item d-flex flex-row align-items-center">
+                <label class="contact_label" for="message" >Mensaje</label>
+                <textarea class="contact_input" id="message" name="message" rows="5" cols="40" placeholder="Estimados..."></textarea>
+            </div>
+
+            <div class="contact2_main_form_submit contact_item d-flex flex-row align-items-center pb-2">
+                <input class="contact_submit" type="submit" value="Enviar!">
+            </div>  
+        </form>
+    </main>
+
+    <footer class="contact2_footer footer">
+
+        <div class="contact2_footer_img footer_div_image d-flex flex-wrap align-items-center">
+            <img class = "footer_image img-fluid" src="../images/footer_logo.png" alt="logo_naturally">
+        </div>
+
+        <div class="contact2_footer_info footer_div_info">
+            <h2 class="footer_title text-center">Información general</h2>
+            <ul class="footer_infogeneral text-center">
+                <li class="footer_infogeneral_info">Abierto de 11 a 15 HS</li>
+                <li class="footer_infogeneral_info">Pedidos online: 9 a 12 HS</li>
+                <li class="footer_infogeneral_info">4555-5555/5675</li>
+                <li class="footer_infogeneral_info">naturally@naturally.com.ar</li>
+            </ul>
+        </div>
+
+        <div class="contact2_footer_rrss footer_div_followus">
+            <h2 class="footer_title_rrss text-center">¡Seguinos!</h2>
+            <div class="footer_rrss">
+                <a class="footer_rrss_link" href="https://www.instagram.com/coderhouse/" target="_blank"><img class="footer_rrss_image" src="../images/footer_instagram.png" alt="instagram_icon"></a>
+                <a class="footer_rrss_link" href="https://www.facebook.com/Naturally-Fresh-Fast-Food-105357674332310/" target="_blank"><img class="footer_rrss_image" src="../images/footer_facebook.png" alt="facebook_icon"></a>
+                <a class="footer_rrss_link" href="https://www.tripadvisor.com.ar/Restaurant_Review-g312741-d11678166-Reviews-Naturally_Fresh_Fast_Food-Buenos_Aires_Capital_Federal_District.html" target="_blank"><img class="footer_rrss_image" src="../images/footer_tripadvisor.png" alt="tripadvisor_icon"></a>
+                <a class="footer_rrss_link" href="https://twitter.com/coderhouse" target="_blank"><img class="footer_rrss_image" src="../images/footer_twitter.png" alt="twitter_icon"></a>
+            </div>
+        </div>
+
+        <div class="contact2_footer_map footer_div_dondeestamos">
+            <div class="footer_div_dondeestamos_info">
+                <h2 class="footer_title text-center">¿Dónde estamos?</h2>
+                <p class="footer_dondeestamos_info text-center">Av. del Libertador 6375<br>Belgrano<br>C.A.B.A.</p>
+            </div>
+
+            <iframe class="footer_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13144.085118166884!2d-58.4505559!3d-34.5530166!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43211278d27%3A0xbbe84106d1f82435!2sNaturally%20Fresh%20Fast%20Food!5e0!3m2!1ses-419!2sar!4v1678494283946!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </footer>
+
+    <div class="contact2_rights">
+        <h5 class="rights_text text-center">
+            © 2023 Naturally Fresh Fast Food. All rights reserved. <br> Diseñado por Juan Pablo Lezama
+        </h5>
+    </div>
+
+    <div class="whatsapp_button">
+        <a href="https://api.whatsapp.com/send?phone=541131443573&text=Hola%20Naturally!" target="_blank"><img class= "whatsapp_image" src="../images/footer_whatsapp.png" alt="whatsapp_logo"></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -516,6 +516,124 @@
   background-color: rgb(220, 241, 187);
 }
 
+.contact2 {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-areas: "header" "title_and_main" "footer" "rights";
+  grid-template-columns: 1fr;
+  grid-template-rows: 55px auto 180px auto;
+}
+@media (max-width: 991px) {
+  .contact2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 55px auto auto auto;
+  }
+}
+
+.contact2_header {
+  grid-area: header;
+}
+
+.contact2_main {
+  background-image: url(../images/aboutus_bg.png);
+  grid-area: title_and_main;
+  display: grid;
+  grid-template-areas: "title" "main";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+
+.contact2_footer {
+  grid-area: footer;
+  display: grid;
+}
+@media (max-width: 991px) {
+  .contact2_footer {
+    grid-template-areas: "informacion_mobile" "rrss_mobile" "map_mobile";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+@media (min-width: 992px) {
+  .contact2_footer {
+    grid-template-areas: "imagen informacion rrss map";
+    grid-template-columns: 2fr 3fr 2fr 5fr;
+    grid-template-rows: 180px;
+  }
+}
+
+.contact2_rights {
+  background-image: linear-gradient(to right, rgb(183, 230, 112), rgb(88, 228, 88), rgb(201, 226, 169));
+  grid-area: rights;
+}
+
+.contact2_main_title {
+  grid-area: "title";
+}
+
+.contact2_main_form {
+  grid-area: main;
+  display: grid;
+  grid-template-areas: "nombre" "correo" "telefono" "motivo" "mensaje" "submit";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.contact2_main_form_name {
+  grid-area: nombre;
+}
+
+.contact2_main_form_email {
+  grid-area: correo;
+}
+
+.contact2_main_form_phone {
+  grid-area: telefono;
+}
+
+.contact2_main_form_reason {
+  grid-area: motivo;
+}
+
+.contact2_main_form_message {
+  grid-area: mensaje;
+}
+
+.contact2_main_form_submit {
+  grid-area: submit;
+}
+
+.contact2_footer_img {
+  grid-area: imagen;
+}
+
+.contact2_footer_info {
+  grid-area: informacion;
+}
+@media (max-width: 991px) {
+  .contact2_footer_info {
+    grid-area: informacion_mobile;
+  }
+}
+
+.contact2_footer_rrss {
+  grid-area: rrss;
+}
+@media (max-width: 991px) {
+  .contact2_footer_rrss {
+    grid-area: rrss_mobile;
+  }
+}
+
+.contact2_footer_map {
+  grid-area: map;
+}
+@media (max-width: 991px) {
+  .contact2_footer_map {
+    grid-area: map_mobile;
+  }
+}
+
 /* ESTILOS EN LA PÁGINA DE BUILD YOUR SALAD */
 .build_desktop {
   background-image: url(../images/aboutus_bg.png);
