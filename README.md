@@ -22,3 +22,9 @@ ABOUT US: Incluí un carrousel con Swiper, el fondo de las imágenes está reali
 ------------------------------- JAVASCRIPT  ---------------------------
 
 En la sección de "Armá tu ensalada", agregué una función de JavaScript para poder limitar la cantidad de ingredientes principales y de aderezos. No hizo falta en el resto de las opciones ya que no eran checkboxs, sino radio buttons.
+
+------------------------------- FIN  ---------------------------
+
+Espero que les guste!
+Saludos
+Juan Pablo Lezama
